@@ -35,11 +35,11 @@ def linear_search(items, target):
 # Example Usage:
 items = ['haycorn', 'haycorn', 'haycorn', 'hunny', 'haycorn']
 target = 'hunny'
-linear_search(items, target)
+print(linear_search(items, target))
 
 items = ['bed', 'blue jacket', 'red shirt', 'hunny']
 target = 'red balloon'
-linear_search(items, target)
+print(linear_search(items, target))
 
 # Example Output:
 # 3
