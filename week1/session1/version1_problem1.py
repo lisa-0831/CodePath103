@@ -22,6 +22,10 @@ Use a for loop over range(len(items)) and compare each item to target.
 For ['haycorn', 'haycorn', 'hunny'], target = 'hunny', the loop checks indexes 0, 1, then returns 2.
 For ['bed'], target = 'hunny', no match is found, so return -1.
 
+6. Evaluate
+Time complexity: O(n), where n is the number of items in the list.
+Space complexity: O(1), because no extra data structure is used. (i, target, and items (items is just a reference to the original list. The function does not copy the list.))
+
 """
 
 def linear_search(items, target):
