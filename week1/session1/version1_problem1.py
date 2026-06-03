@@ -4,8 +4,6 @@ Write a function linear_search() to help Winnie the Pooh locate his lost items. 
 
 ############### UMPIRE Method ###############
 
-UMPIRE Method
-
 1. Understand
 Return the first index where target appears in items. If it never appears, return -1.
 Example: ['haycorn', 'hunny'], target = 'hunny' -> 1
