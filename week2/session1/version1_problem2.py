@@ -30,6 +30,7 @@ For "trust me", many letters are missing, so return False.
 6. Evaluate
 Time complexity: O(n), where n is the length of message.
 Space complexity: O(n), because the set stores unique characters from message.
+Improvement: if the set has less than 26 letters, return False immediately.
 
 """
 
